@@ -1,7 +1,7 @@
 from app.calc import soma, multiplica, divisao, subtracao, potencia
 
 def test_soma():
-    assert soma(2, 3) == 5
+    assert soma(2, 3) == 10  # ERRO PROPOSITAL - deveria ser 5
 
 def test_subtracao():
     assert subtracao(3, 2) == 1
